@@ -1,0 +1,34 @@
+# Ignore everything
+*
+
+# But not these!
+!.gitignore
+!run.py
+!README.md
+
+# Include folders and their contents
+!attackers/
+!attackers/aehelper.py
+!attackers/attacker.py
+
+!configs/
+!models/
+!trainAutoEncoders/
+!trainNonWatermarkModel/
+!trainWatermarkModels/
+
+# Include __pycache__ if needed
+!configs/__pycache__/
+!models/__pycache__/
+!trainAutoEncoders/__pycache__/
+!trainNonWatermarkModel/__pycache__/
+
+
+__pycache__/
+*.py[cod]
+
+
+
+# Ignore PyCharm's auto-created virtual environments
+.venv/
+venv/
